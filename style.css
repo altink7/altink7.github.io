@@ -149,3 +149,23 @@ section img{
 .impressum table tr td{
     border:1px solid;
 }
+
+.anmeldefenster{
+    text-align: left;
+    width:fit-content;
+}
+
+.anmeldefenster label{
+    padding: auto;
+    margin-bottom: 1%;
+    margin-left: 2rem;
+}
+
+.anmeldefenster input{
+    display: flex;
+    align-content: right;
+    float:right;
+    padding: auto;
+    margin-bottom: 1%;
+    margin-left: 2rem;
+}
