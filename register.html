@@ -29,25 +29,30 @@
 
         <img src="Bilder/section.jpeg" alt="">
 
-        <div class="anmeldefenster">
+        <div class="c">
             <form action="">
                 <label for="anrede">Anrede:</label><br>
-                <input type="text" name="anrede" id="1">
+                <input type="text" name="anrede" id="anredeInput">
                 <br>
                 <label for="vorname">Vorname:</label><br>
-                <input type="text" name="vorname" id="2">
+                <input type="text" name="vorname" id="vornameInput">
                 <br>
                 <label for="nachname">Nachname:</label><br>
-                <input type="text" name="nachname" id="3">
+                <input type="text" name="nachname" id="nachnameInput">
                 <br>
                 <label for="email">E-Mail-Adresse:</label><br>
-                <input type="email" name="email" id="4">
+                <input type="email" name="email" id="emailInput">
                 <br>
                 <label for="username">Username:</label><br>
-                <input type="text" name="user" id="5">
+                <input type="text" name="user" id="usernameInput">
                 <br>
                 <label for="passwort">Passwort:</label><br>
-                <input type="password" name="passwort" id="">
+                <input type="password" name="passwort" id="passwortInput">
+                <br>
+                <label for="passwort">Passwort bestätigen:</label><br>
+                <input type="password" name="passwort" id="passwort2Input" minlength="8" required>
+                <br>
+                <input id="submitButton" type="submit" value="Registrieren">
 
             </form>
         </div>
