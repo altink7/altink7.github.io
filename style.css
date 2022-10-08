@@ -1,0 +1,151 @@
+body{
+    background-color: lightslategray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.Logo{
+    text-align: center;
+}
+
+.Logo p {
+    font-weight: 900;
+    color: dimgray;
+    font-size: 25px;
+}
+
+.nav{
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.nav:hover{
+    background-color: lightslategray;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+nav ul li a:hover{
+    color:white;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;   
+    background-color: lightgray;
+    margin-top:25px;
+    padding: 10px;
+}
+ footer ul{
+     text-align: center;
+ }
+
+footer ul li{
+    font-weight:350;
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+}
+
+section{
+    text-align: center;
+}
+
+section img{
+    align-content:bottom;
+    margin-top: 5%;
+}
+.Kontakt h3{
+    text-align: left;
+    margin-left: 20%;
+}
+.Kontakt table{
+    margin-left: 10%;
+    text-align:center;
+}
+
+.zeiten {
+    text-align: left;
+}
+
+.zeiten h3{
+    margin-left: 20%;
+}
+
+.zeiten p{
+    margin-left:10%;
+}
+.bestand caption{
+    border: 2px solid;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.bestand table{
+    border: 2px solid;
+    margin-top: 50px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.bestand table tr {
+    background-color:lightgray;
+}
+
+.bestand table td{
+    border: 2px solid;
+    padding: 8px;
+    margin: 8px;
+    color: dimgrey;
+    font-weight:bold;
+}
+
+.bestand table td:hover {
+    color: black;
+    cursor: grab;
+    font-weight: bold;
+}
+
+.impressum caption{
+    font-size: 25px;
+    padding: 5px;
+    margin: 15px;
+}
+
+.impressum table{
+    border:1px solid;
+    position: absolute;
+    left: 40px;
+    top: 200px;
+    font-family: Verdana;
+    font-size: 9pt;
+    font-weight: bold;
+}
+
+.impressum table tr td{
+    border:1px solid;
+}
