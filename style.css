@@ -1,131 +1,126 @@
-body{
-    background-color: lightslategray;
+.nav {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: -8%;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    position: relative;
+    display: inline-block;
+    color: white;
+    padding-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav:hover {
+    background-color: #5890b3;
+}
+
+nav ul li a:hover {
+    color: #5890b3;
+}
+
+.Banner {
+    background-image: url('img/banner.png');
+    height: 80vh;
+    background-size: cover;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    font-size: 25px;
+    padding-top: 300px;
+}
+
+body {
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
-    background-color: lightgray;
-    padding: 10px;
-}
-
-.Logo{
-    text-align: center;
-}
-
-.Logo p {
-    font-weight: 900;
-    color: dimgray;
-    font-size: 25px;
-}
-
-.nav{
-    background-color: lightgray;
-    padding: 10px;
-}
-
-.nav:hover{
-    background-color: lightslategray;
-}
-
-nav ul{
-    text-align: center;
-}
-
-nav ul li{
-    list-style: none;
-    display: inline;
-    margin-left: 5%;
-    margin-right: 5%;
-}
 
 
-
-nav ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 25px;
-}
-
-nav ul li a:hover{
-    color:white;
-}
-
-footer{
+footer {
     position: relative;
-    bottom: 0;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
     width: 100%;
-    height: 2.5rem;   
-    background-color: lightgray;
-    margin-top:25px;
-    padding: 10px;
+    background-color: black;
+    
 }
- footer ul{
-     text-align: center;
- }
 
-footer ul li{
-    font-weight:350;
+footer ul {
+    text-align: center;
+    color: white;
+}
+
+footer ul li {
+    font-weight: 350;
     list-style: none;
     display: inline;
-    margin: 10px;
+    margin: 20px;
     padding: 5px;
 }
 
-section{
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer:hover {
+    background-color: #5890b3;
+}
+
+footer ul li a:hover {
+    color: black;
+}
+
+
+section {
     text-align: center;
+    padding-top: 20px;
 }
 
-section img{
-    align-content:bottom;
-    margin-top: 5%;
-}
-.Kontakt h3{
-    text-align: left;
-    margin-left: 20%;
-}
-.Kontakt table{
-    margin-left: 10%;
-    text-align:center;
-}
 
-.zeiten {
-    text-align: left;
-}
-
-.zeiten h3{
-    margin-left: 20%;
-}
-
-.zeiten p{
-    margin-left:10%;
-}
-.faq caption{
+.faq caption {
     border-top: 2px solid;
     border-left: 2px solid;
     border-right: 2px solid;
     padding: 10px
 }
-.faq table{
+
+.faq table {
     border: 2px solid;
     margin-top: 2rem;
     margin-left: 1rem;
     padding: 5px;
 }
 
-.faq table tr{
+.faq table tr {
     padding: 5px;
     border: 1px solid;
 }
 
 
-.impressum caption{
+.impressum caption {
     font-size: 25px;
     padding: 5px;
     margin: 15px;
 }
 
-.impressum table{
-    border:1px solid;
+.impressum table {
+    border: 1px solid;
     left: 40px;
     top: 200px;
     font-family: Verdana;
@@ -133,20 +128,20 @@ section img{
     font-weight: bold;
 }
 
-.impressum table tr td{
-    border:1px solid;
+.impressum table tr td {
+    border: 1px solid;
 }
 
-.anmeldefenster{
+.anmeldefenster {
     text-align: left;
-    width:fit-content;
+    width: fit-content;
 }
 
-.anmeldefenster input{
+.anmeldefenster input {
     margin-bottom: 2%;
 }
 
-#submitButton{
+#submitButton {
     margin-top: 10%;
     margin-left: 20%;
 }
