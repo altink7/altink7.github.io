@@ -91,30 +91,34 @@ footer ul li a:hover {
 }
 
 
-section {
+.pool {
+    align-items: center;
+    display: flex;
+    justify-content:center;
     text-align: center;
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .poolimg {
-    margin-top: 40px;
-    margin-left: 30px;
-    margin-right: 40px;
-}
-
-.pool{
-    font-size: 25px;
-    padding-left: 20px;
+    margin-top: 60px;
+    padding-right: 80px;
 }
 
 .food{
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    text-align: center;
     font-size: 25px;
-    padding-left: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .foodimg{
     margin-top: 60px;
-    margin-left: 30px;
-    margin-right: 40px;;
+    padding-left: 80px;
 }
 .faq caption {
     border-top: 2px solid;
@@ -156,15 +160,12 @@ section {
 }
 
 .anmeldefenster {
-    text-align: left;
-    width: fit-content;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
 }
 
 .anmeldefenster input {
     margin-bottom: 2%;
 }
 
-#submitButton {
-    margin-top: 10%;
-    margin-left: 20%;
-}
