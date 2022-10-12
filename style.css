@@ -120,6 +120,34 @@ footer ul li a:hover {
     margin-top: 60px;
     padding-left: 80px;
 }
+
+.julian{
+    align-items: center;
+    display: center;
+    justify-content:center;
+    text-align: center;
+    font-size: 25px;
+}
+    
+
+.julianimg{
+    margin-top: 60px;
+    padding-left: 80px;
+}
+
+.altin{
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+.altinimg{
+    margin-top: 60px;
+    padding-left: 90px;
+}
 .faq caption {
     border-top: 2px solid;
     border-left: 2px solid;
