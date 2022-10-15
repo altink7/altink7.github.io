@@ -25,6 +25,7 @@ footer {
 }
 
 footer ul {
+    padding-left: 0px;
     text-align: center;
     color: white;
 }
@@ -80,8 +81,7 @@ footer ul li a {
     justify-content:center;
     text-align: center;
     font-size: 25px;
-}
-    
+}   
 
 .julianimg{
     margin-top: 60px;
@@ -101,6 +101,7 @@ footer ul li a {
     margin-top: 60px;
     padding-left: 90px;
 }
+
 .faq caption {
     border-top: 2px solid;
     border-left: 2px solid;
