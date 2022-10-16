@@ -1,3 +1,32 @@
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: black !important;
+}
+
+.bg-light:hover {
+    background-color: #5890b3 !important;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+    text-decoration: underline 3px;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.nav-link:hover {
+    text-decoration: underline 2px;
+}
+
 .Banner {
     background-image: url('img/banner.png');
     height: 80vh;
@@ -160,33 +189,4 @@ footer ul li a:hover {
 
 .map {
     margin-top: 100px;
-}
-
-.bg-light {
-    --bs-bg-opacity: 1;
-    background-color: black !important;
-}
-
-.bg-light:hover {
-    background-color: #5890b3 !important;
-}
-
-.navbar-nav .nav-link {
-    color: white;
-    font-size: 20px;
-    margin-right: 30px;
-    margin-left: 30px;
-}
-
-.navbar-nav .nav-link.active {
-    color: white;
-    text-decoration: underline 3px;
-}
-
-.navbar-toggler {
-    background-color: white;
-}
-
-.nav-link:hover {
-    text-decoration: underline 2px;
 }
