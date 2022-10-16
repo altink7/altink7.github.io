@@ -38,10 +38,15 @@ footer ul li {
     padding: 1%;
 }
 
-footer ul li a {
-    text-decoration: none;
+footer ul li a{
     color: white;
-}
+    text-decoration: none;
+  }
+
+footer ul li a:hover {
+    color: white;
+    text-decoration: underline 2px;
+  }
 
 .pool {
     width:100%;
@@ -121,7 +126,6 @@ footer ul li a {
     border: 1px solid;
 }
 
-
 .impressum caption {
     font-size: 25px;
     padding: 5px;
@@ -174,4 +178,8 @@ footer ul li a {
 
 .navbar-toggler{
     background-color: white;
+}
+
+.nav-link:hover{
+    text-decoration:underline 2px;
 }
