@@ -6,7 +6,7 @@
     font-weight: 400;
     color: white;
     font-size: 50px;
-    padding-top: 25%;
+    padding-top: 40vh;
 }
 
 body {
@@ -17,11 +17,14 @@ body {
 footer {
     position: relative;
     margin-top: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     width: 100%;
-    background-color: black;
+    background-color: black
+}
 
+footer:hover {
+    background-color: #5890b3;
 }
 
 footer ul {
@@ -38,71 +41,71 @@ footer ul li {
     padding: 1%;
 }
 
-footer ul li a{
+footer ul li a {
     color: white;
     text-decoration: none;
-  }
+}
 
 footer ul li a:hover {
     color: white;
     text-decoration: underline 2px;
-  }
+}
 
 .pool {
-    width:100%;
+    width: 100%;
     align-items: center;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     text-align: center;
     font-size: 100%;
 }
 
 .poolimg {
-    width:100%;
+    width: 100%;
     margin-top: 60px;
     padding-right: 80px;
     padding-left: 10%;
 }
 
-.food{
-    width:100%;
+.food {
+    width: 100%;
     align-items: center;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     text-align: center;
     font-size: 100%;
 }
 
-.foodimg{
-    width:100%;
+.foodimg {
+    width: 100%;
     margin-top: 60px;
     padding-left: 80px;
     padding-right: 10%;
 }
 
-.julian{
+.julian {
     align-items: center;
     display: center;
-    justify-content:center;
+    justify-content: center;
     text-align: center;
     font-size: 25px;
-}   
+}
 
-.julianimg{
+.julianimg {
     margin-top: 60px;
     padding-left: 80px;
 }
 
-.altin{
+.altin {
     align-items: center;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     text-align: center;
     font-size: 25px;
-    
+
 }
 
-.altinimg{
+.altinimg {
     margin-top: 60px;
     padding-left: 90px;
 }
@@ -147,7 +150,7 @@ footer ul li a:hover {
 
 .anmeldefenster {
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     text-align: center;
 }
 
@@ -155,31 +158,35 @@ footer ul li a:hover {
     margin-bottom: 2%;
 }
 
-.map{
-    margin-top:100px;
+.map {
+    margin-top: 100px;
 }
 
 .bg-light {
-  --bs-bg-opacity: 1;
-  background-color: black !important;
+    --bs-bg-opacity: 1;
+    background-color: black !important;
 }
 
-.navbar-nav .nav-link{
+.bg-light:hover {
+    background-color: #5890b3 !important;
+}
+
+.navbar-nav .nav-link {
     color: white;
     font-size: 20px;
     margin-right: 30px;
     margin-left: 30px;
 }
 
-.navbar-nav .nav-link.active{
-    color:white;
+.navbar-nav .nav-link.active {
+    color: white;
     text-decoration: underline 3px;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     background-color: white;
 }
 
-.nav-link:hover{
-    text-decoration:underline 2px;
+.nav-link:hover {
+    text-decoration: underline 2px;
 }
