@@ -7,14 +7,14 @@
     background-color: #5890b3 !important;
 }
 
-.navbar-nav .nav-link {
+.collapse{
     color: white;
     font-size: 20px;
     margin-right: 30px;
     margin-left: 30px;
 }
 
-.navbar-nav .nav-link.active {
+.active {
     color: white;
     text-decoration: underline 3px;
 }
