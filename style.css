@@ -80,38 +80,6 @@ footer ul li a:hover {
     text-decoration: underline 2px;
 }
 
-.pool {
-    width: 100%;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 100%;
-}
-
-.poolimg {
-    width: 100%;
-    margin-top: 60px;
-    padding-right: 80px;
-    padding-left: 10%;
-}
-
-.food {
-    width: 100%;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 100%;
-}
-
-.foodimg {
-    width: 100%;
-    margin-top: 60px;
-    padding-left: 80px;
-    padding-right: 10%;
-}
-
 .julian {
     align-items: center;
     display: center;
@@ -189,4 +157,22 @@ footer ul li a:hover {
 
 .map {
     margin-top: 100px;
+}
+.row{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.roomimg {
+    width: 100%;
+    padding-bottom: 10px;
+}
+.contentroom{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.poolimg{
+    width: 100%;
+}
+.foodimg{
+    width: 100%;
 }
