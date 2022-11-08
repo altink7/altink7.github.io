@@ -176,3 +176,45 @@ footer ul li a:hover {
 .foodimg{
     width: 100%;
 }
+.abovecontact{
+    padding-top: 100px;
+}
+.contact {
+    color: white;
+	padding: 2%;
+	max-width: 980px;
+	margin: 0 auto;
+	background-color: #5890b3;
+}
+
+label {
+	position: absolute;
+  clip: rect(1px 1px 1px 1px); 
+  clip: rect(1px, 1px, 1px, 1px);
+}
+form {
+	display: flex;
+	flex-flow: row wrap;
+}
+.field, .textarea {
+	margin: 0 .5em 1em 0;
+	padding: .5em 1em;
+	border: 1px solid #CCC;
+}
+.field {
+	flex: 40%;
+	width: 45%;
+	float: left;
+}
+.textarea {
+	flex: 90%;
+	width: 90%;
+}
+.button {
+	padding: .5em 1em;
+	border: 1px solid #CCC;
+    width: 100%;
+}
+.kontaktieren{
+    padding-bottom: 5px;
+}
